@@ -1,0 +1,76 @@
+.circle-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .circle .text {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 0.3s ease;
+  }
+  
+  .circle:hover .text {
+    margin-top: -50px;
+  }
+
+  .form-container {
+    background-color: rgb(2, 2, 2);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .gradient-button {
+    background-image: linear-gradient(to bottom right, #ff6c6c, #ffaa71);
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .gradient-button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+  }
+  
+  .form-control {
+    border-radius: 10px;
+  }
+
+  .bg-light {
+    background-color: #f8f9fa;
+  }
+.bg-kotlin-gradient {
+    background: linear-gradient(to bottom, #c3d3f0, #dfccea);
+  }
+  
